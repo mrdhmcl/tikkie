@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: 'museo-regular';
+    src: url('fonts/MuseoSansRounded700.otf') format('opentype')
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #424380;
+    color: white;
+    font-family: 'museo-regular', sans-serif;
+    font-size: 20px;
+}
+
+header{
+    position: relative;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #8D8EB2;
+}
+
+img#logo{
+    position: absolute;
+    top: -44%;
+}
+
+main{
+    max-width: 300px;
+    min-width: 260px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px 10px 0 0;
+
+    background-color: #6A6BD4;
+    box-shadow: 5px 3px 20px 1px rgba(0, 0, 0, 0.515);
+}
+
+p#a{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+p#b{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+p#c{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+div#box{
+    display: inline-block;
+    font-size: 16px;
+    background-color: #5556AA;
+    padding: 5px 8px 8px 8px;
+    border-radius: 2px 14px 14px 14px;
+    margin-bottom: 40px;
+}
+
+span{
+    font-size: 20px;
+}
+
+img#check{
+    height: 13px;
+    margin-left: 3px;
+}
+
+div#img{
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
+
+select{
+    background-color: #39A4A1;
+    padding: 5px;
+    color: white;
+    width: 310px;
+    border-radius: 30px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.307);
+}
+
+select:hover{
+    box-shadow: 3px 3px 10px 0px rgba(255, 255, 255, 0.403);
+}
+
+footer{
+    max-width: 300px;
+    min-width: 260px;
+    margin: auto;
+    text-align: center;
+    background-color: #797AD8;
+    font-size: 12px;
+    color: #C8C8E8;
+    padding: 30px;
+    border-radius: 0 0 10px 10px;
+    width: 330px;
+    box-shadow: 5px 3px 10px 0px rgba(0, 0, 0, 0.515);
+}
+
+span#aside{
+    font-size: 12px;
+    color: white;
+}
